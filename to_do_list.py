@@ -57,9 +57,10 @@ def ask_list_name():
 
                 
                 if choice == 2:
-                        print("Present list names:")
+                        print("\n~~~~~~~~\nPresent list names:")
                         for keys in list_dictionary.keys():
                             print(keys)
+                        print("~~~~~~~~")
                         return None
             else:
                 print("Enter a valid number 1 or 2")
